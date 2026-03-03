@@ -1,4 +1,4 @@
-FROM node:lts-buster
+FROM node:lts-bookworm
 
 RUN apt-get update && \
   apt-get install -y \
@@ -21,4 +21,4 @@ COPY . .
 
 EXPOSE 5000
 
-CMD ["npm", "run" , "index.js"]
+CMD ["node", "index.js"]
