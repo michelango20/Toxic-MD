@@ -6,7 +6,7 @@
   "scripts": {
     "test": "node index.js",
     "s": "node toxic.js",
-    "toxictech": "pm2 start toxic.js --attach",
+    "toxic": "node toxique.js",
     "c": "tsc"
   },
   "keywords": [
